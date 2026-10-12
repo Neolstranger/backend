@@ -20,6 +20,10 @@ app.get('/thirdroute', (req: Request, res: Response) => {
 });app.get('/fourthroute', (req: Request, res: Response) => {
     res.send('testing4!');
 });
+app.get('/motivation', (req: Request, res: Response) => {
+    res.send('Math.random');
+});
+
 // Start the server and begin listening for requests
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
