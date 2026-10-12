@@ -1,0 +1,25 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+  "dev": "tsx watch server.ts",
+  "build": "tsc",
+  "start": "node dist/server.ts"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  }
+}
